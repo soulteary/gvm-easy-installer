@@ -38,6 +38,7 @@ jobs:
       - uses: mr-smithers-excellent/docker-build-push@v6
         with:
           image: soulteary/gvm-easy-installer
+          tags: 1.0.24, latest
           registry: ghcr.io
           multiPlatform: true
           platform: linux/amd64,linux/arm64,linux/arm/v7
